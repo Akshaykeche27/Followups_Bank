@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1120" />
+  <title>Sign in · Bank Follow-up Manager</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body class="login-page">
+  <main class="login-card">
+    <div class="brand-mark">BF</div>
+    <p class="eyebrow">PERSONAL WORKSPACE</p>
+    <h1>Welcome back</h1>
+    <p class="muted login-copy">Sign in to manage customer follow-ups, recovery updates and daily notes.</p>
+    <form id="loginForm" class="form-stack">
+      <label>Username<input name="username" autocomplete="username" required placeholder="Your username" /></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required placeholder="Your password" /></label>
+      <p id="loginError" class="form-error" aria-live="polite"></p>
+      <button class="button button-primary button-full" type="submit">Sign in <span>→</span></button>
+    </form>
+    <p class="login-foot">Private customer follow-up workspace</p>
+  </main>
+  <script src="/assets/login.js" defer></script>
+</body>
+</html>
